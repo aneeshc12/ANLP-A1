@@ -5,6 +5,7 @@ import numpy as np
 
 class Q1Model(nn.Module):
     def __init__(self, word_emb_dim, vocab_size, hidden_size=300):
+        super().__init__()
         self.word_emb_dim = word_emb_dim
         self.vocab_size = vocab_size
         self.ngram = 5
