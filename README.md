@@ -1,0 +1,1 @@
+# generated random embeddings for eos, sos, added to the glove embeddings im using
